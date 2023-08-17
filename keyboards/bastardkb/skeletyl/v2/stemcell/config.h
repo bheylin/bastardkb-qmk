@@ -26,6 +26,9 @@
 /* Handedness. */
 #define MASTER_RIGHT
 
+// Prevent normal rollover on alphas from accidentally triggering mods.
+#define IGNORE_MOD_TAP_INTERRUPT
+
 // To use the handedness pin, resistors need to be installed on the adapter PCB.
 // If so, uncomment the following code, and undefine MASTER_RIGHT above.
 // #define A0 PAL_LINE(GPIOA, 0)

@@ -21,6 +21,18 @@
 
 #define DIODE_DIRECTION ROW2COL
 
+// Default tapping term is 200
+#define TAPPING_TERM 180
+
+// The setting below defines how many times you need to tap a TT() to toggle the layer.
+#define TAPPING_TOGGLE 3
+
+// Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
+#define QUICK_TAP_TERM 0
+
+#define ONESHOT_TAP_TOGGLE 2
+#define ONESHOT_TIMEOUT 5000
+
 /* RGB settings. */
 #define RGBLED_NUM 36
 #define RGBLED_SPLIT \

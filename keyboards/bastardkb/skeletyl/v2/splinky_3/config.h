@@ -23,6 +23,9 @@
 #define MATRIX_COL_PINS \
     { GP28, GP21, GP6, GP7, GP8 }
 
+// Prevent normal rollover on alphas from accidentally triggering mods.
+#define IGNORE_MOD_TAP_INTERRUPT
+
 /* Handedness. */
 #define MASTER_RIGHT
 
